@@ -1,0 +1,25 @@
+{
+  "name": "mobj",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "mocha --require babel-register --watch test/mobj.spec.js",
+    "start": "nodemon --inspect --debug-brk dist/run.js"
+  },
+  "author": "louisz",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-proxy": "^1.1.0",
+    "babel-preset-env": "^1.6.1",
+    "mocha": "^5.0.0",
+    "mockery": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
